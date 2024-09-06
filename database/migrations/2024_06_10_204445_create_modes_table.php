@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('modes', function (Blueprint $table) {
             $table->id();
-            $table->string('lib_mode');
+            $table->string('name');
             $table->timestamps();
         });
     }

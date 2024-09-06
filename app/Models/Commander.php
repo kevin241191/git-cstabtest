@@ -15,13 +15,4 @@ class Commander extends Model
         'commande_id'
     ];
 
-    // public function produit()
-    // {
-    //     return $this->belongsTo(Produit::class);
-    // }
-
-    // public function commande()
-    // {
-    //     return $this->belongsTo(Commande::class);
-    // }
 }

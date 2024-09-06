@@ -15,8 +15,7 @@ class Fournisseur extends Model
         'adresse',
         'telephone',   
         'email',
-        'ifu',
-        'rccm'
+        'ifu'
     ];
 
     public function commandes() 

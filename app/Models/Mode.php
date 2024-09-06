@@ -11,7 +11,7 @@ class Mode extends Model
     use HasFactory;
 
     protected $fillable = [
-        'lib_mode'
+        'name'
     ];
 
     public function reglements()
@@ -26,6 +26,6 @@ class Mode extends Model
 
     public function getSlug():string
     {
-        return Str::slug($this->lib_mode);
+        return Str::slug($this->name);
     }
 }

@@ -15,8 +15,7 @@ class Client extends Model
         'adresse',
         'telephone',
         'email',
-        'ifu',
-        'rccm' 
+        'ifu'
     ];
 
     public function ventes()

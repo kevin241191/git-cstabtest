@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('telephone');
             $table->string('email');
             $table->string('ifu')->nullable();
-            $table->string('rccm')->nullable();
             $table->timestamps();
         });
     }

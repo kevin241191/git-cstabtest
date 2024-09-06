@@ -21,7 +21,7 @@ return new class extends Migration
             $table->float('totalTTC');
             $table->float('montantNet');
             $table->float('resteapayer');
-            $table->date('datecom');
+            $table->date('date');
             $table->foreignId('fournisseur_id')->constrained('fournisseurs')->onDelete('cascade');
             $table->timestamps();
         });

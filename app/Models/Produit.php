@@ -13,7 +13,7 @@ class Produit extends Model
     protected $fillable = [
         'image',
         'reference',
-        'nomprod',
+        'nomp',
         'qte',
         'prix_achat',
         'modele',

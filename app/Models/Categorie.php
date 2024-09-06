@@ -11,7 +11,7 @@ class Categorie extends Model
     use HasFactory;
 
     protected $fillable = [
-        'lib_cat'
+        'name'
     ];
 
     public function produits()
@@ -21,6 +21,6 @@ class Categorie extends Model
 
     public function getSlug():string
     {
-        return Str::slug($this->nomcat);
+        return Str::slug($this->name);
     }
 }

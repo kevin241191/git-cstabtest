@@ -12,7 +12,7 @@ class Vente extends Model
 
     protected $fillable = [
        'client_id',
-       'datevente',
+       'date',
        'totalTVA',
        'totalHT',
        'totalTTC', 'tauxremise', 'totalremise', 'totalrecu', 'resteapayer', 'montantNet'

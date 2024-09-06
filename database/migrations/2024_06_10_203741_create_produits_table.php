@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('image');
             $table->string('reference');
-            $table->string('nomprod');
+            $table->string('nom');
             $table->integer('qte');
             $table->float('prix_achat');
             $table->string('modele');

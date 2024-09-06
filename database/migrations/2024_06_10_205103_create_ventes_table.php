@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('ventes', function (Blueprint $table) {
             $table->id();
             $table->foreignId('client_id')->constrained('clients')->onDelete('cascade');
-            $table->date('datevente');
+            $table->date('date');
             $table->float('totalTVA');
             $table->float('totalHT');
             $table->float('totalTTC');            

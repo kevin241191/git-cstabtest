@@ -19,7 +19,7 @@ class Commande extends Model
         'totalTTC',
         'montantNet',
         'resteapayer',
-        'datecom',
+        'date',
         'fournisseur_id'
     ];
 
